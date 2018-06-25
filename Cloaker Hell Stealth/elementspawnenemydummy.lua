@@ -3,7 +3,7 @@ if (SC and SC._data and SC._data.sc_ai_toggle) or (DW and DW.settings and DW.set
 
 local ai_type = tweak_data.levels:get_ai_group_type()
 local job = Global.level_data and Global.level_data.level_id
-if ai_type ~= "america" or job == "brb" or job == "election_day_3" or job == "moon" or job == "arm_cro" or job == "arm_und" or job == "arm_par" or job == "arm_fac" or job == "arm_hcm" then return end
+if ai_type ~= "america" or "America" and job == "brb" or job == "election_day_3" or job == "moon" or job == "arm_cro" or job == "arm_und" or job == "arm_par" or job == "arm_fac" or job == "arm_hcm" or job == "Enemy_Spawner" then return end
 
 local sm_wish = {
 		["units/payday2/characters/ene_security_1/ene_security_1"] = "units/pd2_dlc_gitgud/characters/ene_zeal_cloaker/ene_zeal_cloaker",
