@@ -1,2 +1,3 @@
 # Cloaker-Hell-Stealth
 All security guards in stealth possible heists are replaced with Cloakers...
+Incompatible with other mods of this kind. (Eg. Correct Difficulty Enemies, or ZEAL Protection Plan/GenSec Security)
